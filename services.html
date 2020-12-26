@@ -1,0 +1,378 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="css/about.css" />
+        <link
+            rel="stylesheet"
+            href="css/mobile.css"
+            media="screen and (max-width: 840px)"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script>
+            function toggle() {
+                var x = document.getElementById("mobile-content");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        <link rel="icon" type="image/png" href="images/icon.png">
+        <title>Savera Health - Services</title>
+    </head>
+
+    <body>
+        <div id="nav-wrapper"></div>
+        <nav>
+            <a href="index.html">
+                <h1>
+                    <img src="images/icon.png" alt="Logo" style="width: 20px" />
+                    SAVERA HEALTH
+                </h1>
+            </a>
+            <div class="dropdown">
+                <a href="contact.html">
+                    <span>Contact</span>
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="about.html">
+                    <span>About</span>
+                </a>
+            </div>
+            <div class="dropdown">
+                <a href="services.html">
+                    <span>Services ▾ </span>
+                </a>
+                <div class="drop-content">
+                    <a href="#revenue">Revenue Cycle Services ›</a>
+                    <a href="#analytic">Analytic Services ›</a>
+                    <a href="#transparency">Price Transparency Support ›</a>
+                    <a href="#advisory">Advisory Services ›</a>
+                </div>
+            </div>
+            <button id="mobile-button" onclick="toggle()">☰</button>
+            <div id="mobile-content">
+                <a href="about.html">About ›</a>
+                <a href="services.html">Services ›</a>
+                <a href="contact.html">Contact ›</a>
+            </div>
+        </nav>
+        <div id="banner"></div>
+
+        <main>
+            <section>
+                <span id="revenue"></span>
+                <h2>Revenue Cycle+ Services</h2>
+                <div class="divider"></div>
+                <p>
+                    We design and implement – in collaboration with our clients-
+                    patient-centered solutions for sustained improvements in
+                    revenue cycle performance. Our comprehensive revenue cycle
+                    management services address key revenue cycle processes,
+                    with emphasis on:
+                </p>
+                <h3>End-to-End Workflow Optimization:</h3>
+                <ul>
+                    <li>
+                        Analytics Driven Revenue Cycle Workflow Optimization
+                    </li>
+                </ul>
+                <h3>Front Cycle:</h3>
+                <ul>
+                    <li>Eligibility and Benefits Verification</li>
+                    <li>Referral, Authorization and Pre-Certification</li>
+                    <li>Financial Clearance</li>
+                    <li>Provider Enrollment &amp; Credentialing</li>
+                </ul>
+                <h3>Mid Cycle:</h3>
+                <ul>
+                    <li>Coding &amp; Coding Audit for all venues of care</li>
+                    <li>HCC Coding</li>
+                    <li>Coding Edits and DNFB Optimization</li>
+                    <li>Denial Coding</li>
+                    <li>Remote CDI</li>
+                    <li>DRG Validation</li>
+                    <li>Clinical Validation</li>
+                    <li>Data Quality Services</li>
+                    <li>Transcription</li>
+                    <li>Medical Record Excerpts &amp; Indexing</li>
+                </ul>
+                <h3>Back Cycle:</h3>
+                <ul>
+                    <li>Claim &amp; Remit Advice Processing</li>
+                    <li>Insurance and Self-Pay AR Follow Up</li>
+                    <li>Denial Management</li>
+                </ul>
+            </section>
+
+            <section>
+                <span id="analytic"></span>
+                <h2
+                    id="cerner-millennium-soarian-financials-and-clinicals-analytic-services-"
+                >
+                    Cerner® Millennium® &amp; Soarian® Financials and Clinicals
+                    Analytic Services:
+                </h2>
+                <div class="divider"></div>
+                <h3 id="custom-reports-">Custom Reports:</h3>
+                <ul>
+                    <li>
+                        Create custom reports combining any related Soarian® as
+                        well as interfaced Millennium® and/or third party data
+                        sources.
+                    </li>
+                    <li>
+                        Create custom data marts and universes to enable
+                        client-defined reporting in new subject areas.
+                    </li>
+                    <li>
+                        Improve performance of existing custom report
+                        procedures, or create more efficient tailored versions
+                        of Soarian® model reports to meet specific use cases.
+                    </li>
+                    <li>
+                        Improve throughput in Reporting Day End to drive earlier
+                        report availability.
+                    </li>
+                    <li>Enhance responsiveness of on-demand reports.</li>
+                    <li>
+                        Add performance logging to any new or existing custom
+                        report queries to pinpoint any current or future
+                        performance problems.
+                    </li>
+                    <li>
+                        Support partially automated regression testing for any
+                        new or existing custom report procedures and provide
+                        guidance on the use of related tools and techniques
+                        currently included in the Millennium®/ Soarian® model
+                        report procedures.
+                    </li>
+                </ul>
+                <h3 id="custom-data-marts-cubes-">
+                    Custom Data Marts &amp; Cubes:
+                </h3>
+                <ul>
+                    <li>
+                        Customize existing cubes, and if needed, their data
+                        sources to meet requirement gaps in Soarian® model
+                        cubes.
+                    </li>
+                    <li>
+                        Create new OLAP cubes and data sources not currently
+                        supported in model.
+                    </li>
+                    <li>Recreate custom cubes after an upgrade event.</li>
+                </ul>
+                <h3 id="custom-kpis-and-executive-metrics-">
+                    Custom KPIs and Executive Metrics:
+                </h3>
+                <ul>
+                    <li>
+                        Create new KPI’s within the Healthcare Intelligence® KPI
+                        tool spanning revenue cycle and clinical metrics.
+                    </li>
+                    <li>Create new Millennium®/ Soarian® Executive Metrics.</li>
+                </ul>
+                <h3
+                    id="sap-businessobjects-universes-web-intelligence-webi-reporting-"
+                >
+                    SAP BusinessObjects® Universes &amp; Web Intelligence (Webi)
+                    Reporting:
+                </h3>
+                <ul>
+                    <li>
+                        Create specialized universes in various subject areas to
+                        meet requirement gaps and/or to provide improved
+                        performance.
+                    </li>
+                    <li>
+                        Create user-defined Web Intelligence (Webi) reports from
+                        the universes to meet client specific needs. Soarian®
+                        data, captured metrics and imported 3rd party data are
+                        accessible through universes.
+                    </li>
+                </ul>
+                <h3 id="inbound-and-outbound-extracts-support-">
+                    Inbound and Outbound Extracts Support:
+                </h3>
+                <ul>
+                    <li>
+                        Provide inbound and outbound extracts to support other
+                        enterprise objectives including inputs to:
+                        <ul>
+                            <li>ERP Systems</li>
+                            <li>Financial Clearance Systems</li>
+                            <li>Price Estimation Systems</li>
+                            <li>Cost Management Systems</li>
+                            <li>Analytics/ Decision Support Systems</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Meet automation requirements when using tools such as
+                        Cerner Healthcare Extensibility Platform® (HEP) or
+                        DataBound emue®.
+                    </li>
+                </ul>
+                <h3 id="import-data-from-3rd-party-systems-">
+                    Import Data from 3rd Party Systems:
+                </h3>
+                <ul>
+                    <li>Create efficient import procedures</li>
+                    <li>Design data structures to store the imported data</li>
+                    <li>Reconcile imported data with sending system</li>
+                    <li>
+                        Utilize imported data in Custom Reports, Cubes, KPIs,
+                        Executive Metrics, Universes, Webi reports
+                    </li>
+                </ul>
+                <h3 id="export-data-to-3rd-party-systems-">
+                    Export Data to 3rd Party Systems:
+                </h3>
+                <ul>
+                    <li>Create efficient export procedures</li>
+                    <li>
+                        Reconcile exported data with receiving system if
+                        technically feasible
+                    </li>
+                    <li>
+                        Create data sources for automation tools such as HEP®
+                        and DataBound®
+                    </li>
+                </ul>
+                <h3
+                    id="ongoing-monitoring-and-upgrade-support-for-any-of-the-above-"
+                >
+                    Ongoing Monitoring and Upgrade Support, for any of the
+                    above:
+                </h3>
+                <ul>
+                    <li>
+                        Analyze impact of upgrade, including database changes
+                        and SQL Server version, on reports data marts and cubes
+                        to support upgrade planning.
+                    </li>
+                    <li>
+                        Mitigate Soarian or Healthcare Intelligence upgrade
+                        impacts by modifying reports, data marts and cubes, as
+                        required, for Soarian upgrade events.
+                        <ul>
+                            <li>Provide appropriate ongoing monitoring.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span id="transparency"></span>
+                <h2
+                    id="support-for-price-transparency-rules-compliance-online-price-estimation-tools"
+                >
+                    Support for Price Transparency Rules Compliance &amp; Online
+                    Price Estimation Tools
+                </h2>
+                <div class="divider"></div>
+                <p>
+                    Our team members have been working with Cerner® clinical and
+                    financial data for the past 20 years which gives us the
+                    unique ability to effectively identify the data element
+                    required to support your Price Transparency related business
+                    objectives. We can provide inbound and outbound extracts to
+                    support enterprise Price Transparency Rules Compliance
+                    objectives.
+                </p>
+                <h3
+                    id="extract-current-chargemaster-revenue-and-usage-information-from-soarian-surround-solutions-to-support-"
+                >
+                    Extract current chargemaster, revenue and usage information
+                    from Soarian® &amp; surround solutions to support:
+                </h3>
+                <ul>
+                    <li>
+                        Assessment of the accuracy, completeness and currency of
+                        chargemaster data.
+                    </li>
+                    <li>Competitive intelligence.</li>
+                    <li>
+                        Strategic pricing program for optimal recalibration of
+                        price by service.
+                    </li>
+                    <li>
+                        Rational pricing model assembled around cost,
+                        reimbursement, and peer pricing data.
+                    </li>
+                    <li>
+                        CMS requirements:
+                        <ul>
+                            <li>Machine Readable file</li>
+                            <li>Consumer Friendly file</li>
+                        </ul>
+                    </li>
+                    <li>Data inputs for the Patient Estimation tools.</li>
+                </ul>
+                <h3 id="upgrade-support-">Upgrade Support:</h3>
+                <ul>
+                    <li>
+                        Analysis of upgrade impact, including database changes
+                        and SQL Server version, on reports data marts and cubes
+                        to support upgrade planning.
+                    </li>
+                    <li>
+                        Mitigation of Soarian or Healthcare Intelligence upgrade
+                        impacts by modifying reports, data marts and cubes, as
+                        required, for Soarian upgrade events.
+                    </li>
+                </ul>
+                <h3 id="ongoing-monitoring-support-option-deliverables-">
+                    Ongoing Monitoring &amp; Support Option &amp; Deliverables:
+                </h3>
+                <ul>
+                    <li>
+                        Price transparency regulatory support maintenance
+                        program including monthly/ quarterly/ annual updates to
+                        the JSON/ CSV/ XML machine-readable file.
+                    </li>
+                    <li>
+                        Updates to the high-low posting requirements throughout
+                        the course of the year due to payer negotiations and
+                        resulting rate changes with health systems.
+                    </li>
+                    <li>
+                        Annual posting refresh requirement pursuant to the Rule.
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <span id="advisory"></span>
+                <h2 id="advisory-services">Advisory Services</h2>
+                <div class="divider"></div>
+                <h3
+                    id="-we-orchestrate-the-pairing-of-healthcare-industry-smes-with-leading-edge-practices-and-processes-"
+                >
+                    We orchestrate the pairing of healthcare industry SMEs with
+                    leading-edge practices and processes.
+                </h3>
+                <ul>
+                    <li>Revenue Cycle Process Transformation</li>
+                    <li>Revenue Cycle Systems Program Management</li>
+                    <li>Clinical Informatics</li>
+                    <li>Payor-Provider Collaboration</li>
+                    <li>M&amp;A Due Diligence &amp; Valuation</li>
+                    <li>
+                        Cross-Border Transactions (US- India; and US-
+                        Philippines)
+                    </li>
+                    <li>Go-To-Market Strategy Development</li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
