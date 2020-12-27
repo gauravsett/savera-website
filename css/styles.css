@@ -13,8 +13,6 @@ div#nav-wrapper {
 }
 
 nav {
-    position: sticky;
-    position: -webkit-sticky;
     margin: 0 auto;
     top: 0;
     width: 800px;
