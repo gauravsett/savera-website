@@ -6,6 +6,7 @@ body {
 div#nav-wrapper {
     position: fixed;
     width: 100%;
+    min-width: 400px;
     height: 80px;
     background-color: white;
     border-bottom: 1px solid black;
@@ -145,3 +146,47 @@ main {
     section#contact a {
         text-decoration: underline;
     }
+
+footer {
+    position: relative;
+    width: 100%;
+    min-width: 400px;
+    background-color: gainsboro;
+    margin-bottom: -10px;
+    color: grey;
+    font-size: 14px;
+}
+
+footer h2, footer h3, footer ul {
+    font-size: inherit;
+    margin: 0;
+    color: inherit;
+}
+
+footer strong {
+    font-weight: 500;
+}
+
+footer ul {
+    padding: 0 0 0 25px;
+}
+
+div#footer-container {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    min-width: 340px;
+}
+
+div#footer-container div {
+    padding-right: 30px;
+}
+
+div#footer-container ul {
+    padding: 0;
+    list-style: none;
+}
+
+div#footer-container a {
+    text-decoration: underline;
+}
