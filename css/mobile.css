@@ -31,26 +31,6 @@ button#mobile-button {
     font-size: 18px;
 }
 
-/* div#mobile-content {
-    display: block;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: white;
-    border: 1px solid black;
-    text-align: right;
-    padding: 10px;
-} */
-
-/* div#mobile-content a {
-    display: block;
-    float: none;
-    font-size: 18px;
-    padding: 12px 14px;
-    font-weight: 500;
-    text-decoration: underline;
-} */
-
 button#mobile-button {
     display: block;
 }

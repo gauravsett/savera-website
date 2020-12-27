@@ -20,21 +20,7 @@ ul ul {
     margin: 0;
 }
 
-div#values {
-    display: flex;
-    flex-wrap: wrap;
+section span {
+    position: absolute;
+    top: -90px
 }
-
-    div#values div {
-        padding: 4px 6px;
-        /* flex-grow: 1; */
-        border: 1px solid black;
-        border-radius: 6px;
-        text-align: center;
-        margin: 0 5px 5px 0;
-    }
-
-    section span {
-        position: absolute;
-        top: -90px
-    }
