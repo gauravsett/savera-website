@@ -28,7 +28,8 @@ button#mobile-button {
     background-color: transparent;
     padding: 0;
     border: 0;
-    font-size: 20px;
+    font-size: 22px;
+    margin-top: -4px;
 }
 
 button#mobile-button {
@@ -37,10 +38,10 @@ button#mobile-button {
 
 div#mobile-content {
     display: none;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 368px;
+    /* position: absolute; */
+    margin-top: 40px;
+    right: 25%;
+    width: 328px;
     /* height: 130px; */
     text-align: left;
     background-color: white;

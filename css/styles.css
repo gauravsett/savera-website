@@ -99,6 +99,7 @@ main {
         background-image: url('../images/index-banner.jpeg');
         background-position: center;
         background-size: cover;
+        padding-top: 60px;
         margin-bottom: 60px;
     }
 
