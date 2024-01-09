@@ -1,76 +1,57 @@
-div#nav-wrapper {
-    height: 60px;
-}
 
-nav {
-    width: 360px;
-    padding: 20px 20px 0 20px;
-}
-
-nav h1 {
-    font-size: 20px;
-}
-
-h1 img {
-    width: 16px;
-}
-
-div#banner {
+body {
     min-width: 400px;
-}
-
-.dropdown {
-    display: none;
-}
-
-button#mobile-button {
-    float: right;
-    background-color: transparent;
-    padding: 0;
-    border: 0;
-    font-size: 22px;
-    margin-top: -4px;
-}
-
-button#mobile-button {
-    display: block;
-}
-
-div#mobile-content {
-    display: none;
-    /* position: absolute; */
-    margin-top: 40px;
-    right: 25%;
-    width: 328px;
-    /* height: 130px; */
-    text-align: left;
-    background-color: white;
-    border: 1px solid black;
-    padding: 15px;
-}
-
-div#mobile-content a {
-    display: block;
-    font-weight: 500;
-    padding: 5px;
-    font-size: 18px;
-    /* text-decoration: underline; */
 }
 
 main {
     width: 360px;
+    padding: 0 20px 120px 20px;
+}
+
+nav h1 {
+    display: none;
+}
+
+div#banner div {
+    margin: 0 auto;
+    width: 360px;
     padding: 20px;
 }
 
-div#link-container, div.about-container {
+div.flex {
     flex-wrap: wrap;
+
 }
 
-div.about-content {
-    flex-grow: 1;
+section#about div.image {
+    height: 360px;
+    margin: 0 0 20px 0;
 }
 
-div.about-link, div.services-content {
-    flex-basis: 175px;
-    margin-bottom: 10px;
+section#about div.flex div.link {
+    padding: 10px 14px;
+    margin: 0 0 10px 0;
+}
+
+section#services div.flex div.box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+section#services div.flex div.image {
+    margin: 0 0 15px 0;
+}
+
+section#services div.flex div.text p,
+section#services div.flex div.text h3 {
+    margin: 5px 0;
+}
+
+section div.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer p, footer h2, footer h3, footer a {
+    font-size: 12px;
 }

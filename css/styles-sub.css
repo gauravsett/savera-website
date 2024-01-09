@@ -1,0 +1,62 @@
+div#banner {
+  height: 200px;
+}
+
+div.flex {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.table {
+  width: 180px;
+  height: fit-content;
+  padding: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+}
+
+div.table span {
+  font-size: 12px;
+  color: crimson;
+  font-weight: 600;
+}
+
+div.table ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+div.table li {
+  margin: 5px 0 0 0;
+}
+
+li#current {
+  font-weight: 500;
+}
+
+div.text {
+  width: 540px;
+}
+
+div.text ul {
+  margin: 10px 0;
+  padding: 0 0 0 24px;
+}
+
+h3 {
+  margin: 0;
+  font-family: "IBM Plex Sans";
+  font-weight: 700;
+}
+
+h4 {
+  margin: 15px 0 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+div.text li {
+  margin: 5px 0;
+}

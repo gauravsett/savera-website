@@ -1,221 +1,141 @@
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, user-scalable=no" />
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="stylesheet" href="css/index.css" />
-        <link
-            rel="stylesheet"
-            href="css/mobile.css"
-            media="screen and (max-width: 840px)"
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script>
-            function toggle() {
-                var x = document.getElementById("mobile-content");
-                if (x.style.display === "block") {
-                    x.style.display = "none";
-                } else {
-                    x.style.display = "block";
-                }
-            }
-        </script>
-        <link rel="icon" type="image/png" href="images/icon.png" />
-        <title>Savera Health</title>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=400, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 840px)"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <title>Savera Health LLC</title>
+  </head>
 
-    <body>
-        <div id="nav-wrapper">
-            <nav>
-                <a href="index.html">
-                    <h1>
-                        <img
-                            src="images/icon.png"
-                            alt="Logo"
-                            style="width: 20px"
-                        />
-                        SAVERA HEALTH LLC
-                    </h1>
-                </a>
-                <!-- <div class="dropdown">
-                    <a href="contact.html">
-                        <span>Contact</span>
-                    </a>
-                </div> -->
-                <div class="dropdown">
-                    <a href="services.html">
-                        <span>Services</span>
-                    </a>
-                </div>
-                <div class="dropdown">
-                    <a href="about.html">
-                        <span>About</span>
-                    </a>
-                </div>
-                <button id="mobile-button" onclick="toggle()">☰</button>
-                <div id="mobile-content">
-                    <a href="about.html">About ›</a>
-                    <a href="services.html">Services ›</a>
-                    <!-- <a href="contact.html">Contact ›</a> -->
-                </div>
-            </nav>
+  <body>
+    <nav>
+      <div id="nav-wrapper">
+        <a href="../index.html">
+        <ul id="left">
+            <li>
+              <img src="../images/icon.png" alt="Logo"/>
+            </li>
+            <li>
+              <h1>Savera Health LLC</h1>
+            </li>
+          </ul>
+        </a>
+        <ul id="right">
+          <li><a href="about/mission.html">About</a></li>
+          <li><a href="services/revenue.html">Services</a></li>
+          <li><a id="button" href="mailto:ajit@saverahealth.org">
+            Contact
+          </a></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="banner" style="background-image: url('images/banner-index.png')">
+      <div>
+        <span style="font-weight: 500;"> Savera Health </span>
+        is a premier global provider of sustainable healthcare business process extension solutions that enable client priorities and team extension agenda.
+      </div>
+    </div>
+
+    <main>
+      <section id="about">
+        <h2>About us</h2>
+        <div class="divider"></div>
+        <div class="flex">
+          <div class="image" style="background-image: url('images/meeting.jpg');"></div>
+          <div class="text">
+            <h3>We are a premier, global provider of sustainable healthcare workforce and business process extension solutions.</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At vero sequi quae, molestiae quis eaque autem assumenda voluptas voluptatibus hic a error velit quod obcaecati officiis sed magnam consectetur quia.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At vero sequi quae, molestiae quis eaque autem assumenda voluptas voluptatibus hic a error velit quod obcaecati officiis sed magnam consectetur quia.</p>
+          </div>
         </div>
-        <div
-            id="banner"
-            style="background-image: url('images/index-banner.jpg')"
-        ></div>
+        <div class="flex">
+          <div class="link"><a href="/about/mission.html">Mission &amp; Values ›</a></div>
+          <div class="link"><a href="/about/business.html">Business Model ›</a></div>
+          <div class="link"><a href="/about/advantage.html">Savera Advantage ›</a></div>
+          <div class="link"><a href="/about/qualifications.html">Our Qualifications ›</a></div>
+        </div>
+      </section>
 
-        <main>
-            <section>
-                <a href="about.html">
-                    <h2>About Savera</h2>
-                </a>
-                <div class="divider"></div>
-                <div id="link-container">
-                    <div class="about-link">
-                        <a href="about.html#mission">
-                            <h3>Mission & Vision ›</h3>
-                        </a>
-                    </div>
-                    <div class="about-link">
-                        <a href="about.html#model">
-                            <h3>Business Model ›</h3>
-                        </a>
-                    </div>
-                    <div class="about-link">
-                        <a href="about.html#advantage">
-                            <h3>Savera Advantage ›</h3>
-                        </a>
-                    </div>
-                    <div class="about-link">
-                        <a href="about.html#qualifications">
-                            <h3>Our Qualifications ›</h3>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="about-container">
-                    <div class="about-content">
-                        <p class="bold">
-                            We are a premier, global provider of sustainable
-                            healthcare workforce and business process extension
-                            solutions.
-                        </p>
-                        <ul>
-                            <li>Revenue Cycle Services</li>
-                            <li>HIM Services</li>
-                            <li>Clinical and Financial Analytics</li>
-                            <li>RPA Solutions Acceleration</li>
-                            <li>Price Transparency Regulations Support</li>
-                        </ul>
-                    </div>
-                    <div class="about-content">
-                        <p class="bold">
-                            We are a global provider of advisory services.
-                        </p>
-                        <ul>
-                            <li>Revenue Cycle Process Transformation</li>
-                            <li>Revenue Cycle Systems Program Management</li>
-                            <li>Payor-Provider Collaboration</li>
-                            <li>M&A Due Diligence & Valuation</li>
-                            <li>
-                                Cross-Border Transactions (US-India,
-                                US-Philippines)
-                            </li>
-                            <li>Go-To-Market Strategy Development</li>
-                            <li>Clinical Informatics</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <a href="services.html">
-                    <h2>Our Services</h2>
-                </a>
-                <div class="divider"></div>
-                <div id="services-container">
-                    <div class="services-content">
-                        <img
-                            src="images/revenue.svg"
-                            alt="Revenue Cycle Services icon"
-                        />
-                        <a href="services.html#revenue">
-                            <h3>Revenue Cycle Services ›</h3>
-                        </a>
-                        <h4>Patient-centered solutions</h4>
-                    </div>
-                    <div class="services-content">
-                        <img
-                            src="images/analytic.svg"
-                            alt="Analytic Services icon"
-                        />
-                        <a href="services.html#analytic">
-                            <h3>Analytic Services ›</h3>
-                        </a>
-                        <h4>
-                            Cerner Millennium & Soarian Financials and
-                            Clinicals
-                        </h4>
-                    </div>
-                    <div class="services-content">
-                        <img
-                            src="images/transparency.svg"
-                            alt="Price Transparency Support icon"
-                        />
-                        <a href="services.html#transparency">
-                            <h3>Price Transparency Support ›</h3>
-                        </a>
-                        <h4>Rules compliance & price estimation</h4>
-                    </div>
-                    <div class="services-content">
-                        <img
-                            src="images/advisory.svg"
-                            alt="Advisory Services icon"
-                        />
-                        <a href="services.html#advisory">
-                            <h3>Advisory Services ›</h3>
-                        </a>
-                        <h4>
-                            Pairing SMEs with leading-edge practices & processes
-                        </h4>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer>
-            <div id="footer-container">
-                <div>
-                    <h2>Savera Health LLC</h2>
-                    Kennett Square, PA, 19348
-                </div>
-                <div>
-                    <strong style="font-weight: 500"
-                        >For inquiries, contact Ajit Sett (President)</strong
-                    >
-                    <ul>
-                        <li>
-                            <a href="mailto:ajit@saverahealth.org"
-                                >ajit@saverahealth.org</a
-                            >
-                        </li>
-                        <li><a href="tel:6173205389">(617) 320-5389</a></li>
-                        <li>
-                            <a
-                                href="https://www.linkedin.com/company/savera-health-llc/"
-                            >
-                                linkedin/savera-health-llc
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+      <section id="services">
+        <h2>Our featured services</h2>
+        <div class="divider"></div>
+        <div class="flex">
+          <div class="box">
+            <div class="image" style="background-image: url(images/revenue.jpg);"></div>
+            <div class="text">
+              <h3><a href="services/revenue.html">
+                Revenue cycle services ›
+              </a></h3>
+              <p>
+                Patient-centered solutions for sustained improvements in revenue cycle performance.
+              </p>
             </div>
-        </footer>
-    </body>
+          </div>
+          <div class="box">
+            <div class="image" style="background-image: url(images/analytic.jpg);"></div>
+            <div class="text">
+              <h3><a href="services/analytic.html">
+                Analytic services ›
+              </a></h3>
+              <p>
+                Cerner Millennium & Soarian Financials and Clinicals Analytic Services.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image" style="background-image: url(images/transparency.jpg);"></div>
+            <div class="text">
+              <h3><a href="services/transparency.html">
+                Price transparency support ›
+              </a></h3>
+              <p>
+                Inbound and outbound extracts to support enterprise Price Transparency Rules Compliance objectives.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image" style="background-image: url(images/advisory.jpg);"></div>
+            <div class="text">
+              <h3><a href="services/advisory.html">
+                Advisory services ›
+              </a></h3>
+              <p>
+                Orchestrating the pairing of healthcare industry SMEs with leading-edge practices and processes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer id="footer">
+      <div>
+        <h2>Savera Health LLC</h2>
+        <p>Kennett Square, PA, 19348</p>
+      </div>
+      <div>
+        <h3>For inquiries, contact Ajit Sett (President)</h3>
+        <ul>
+          <li>
+            <a href="mailto:ajit@saverahealth.org">ajit@saverahealth.org</a>
+          </li>
+          <li><a href="tel:6173205389">(617) 320-5389</a></li>
+          <li>
+            <a href="https://www.linkedin.com/company/savera-health-llc/">
+              linkedin/savera-health-llc
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
 </html>
