@@ -176,6 +176,7 @@ div#footer-container {
     justify-content: flex-start;
     padding: 30px;
     min-width: 340px;
+    flex-wrap: wrap;
 }
 
 div#footer-container div {
